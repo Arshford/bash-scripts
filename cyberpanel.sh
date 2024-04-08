@@ -754,7 +754,7 @@ echo -e "\nWould you like to set up a WatchDog \e[31m(beta)\e[39m for Web servic
 echo -e "The watchdog script will be automatically started up after installation and server reboot"
 echo -e "If you want to kill the watchdog , run \e[31mwatchdog kill\e[39m"
 echo -e "Please type Yes or no (with capital \e[31mY\e[39m, default Yes): "
-Tmp_Input="Yes"  # Automatically set to "Yes"
+Tmp_Input="No"  # Automatically set to "Yes"
 echo ""
 
 if [[ $Tmp_Input = "Yes" ]] || [[ $Tmp_Input = "" ]]; then
@@ -1763,7 +1763,6 @@ if [[ "$Silent" != "On" ]]; then
     reboot
   fi
 fi
-
 
 }
 
