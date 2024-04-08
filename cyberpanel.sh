@@ -1755,16 +1755,17 @@ fi
 Debug_Log2 "Completed [200]"
 
 
-if [[ "$Silent" != "On" ]]; then
-  printf "%s" "Would you like to restart your server now? [Y/n]: "
-  read -r Tmp_Input
+#if [[ "$Silent" != "On" ]]; then
+ # printf "%s" "Would you like to restart your server now? [Y/n]: "
+  #read -r Tmp_Input
+#
+ # if [[ "${Tmp_Input^^}" != *N* ]] ; then
+  #  reboot
+  #fi
+#fi
 
-  if [[ "${Tmp_Input^^}" != *N* ]] ; then
-    reboot
-  fi
-fi
 
-}
+#}
 
 
 Post_Install_Regenerate_Cert() {
