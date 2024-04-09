@@ -20,7 +20,7 @@ done
 
 # Wait for an additional 5 minutes
 echo "CyberPanel installation successful. Waiting for 5 minutes before proceeding..."
-sleep 300  # Wait for 5 minutes
+sleep 100  # Wait for 5 minutes
 
 # Run the rest of the script
 # Replace the following lines with your script
@@ -39,7 +39,7 @@ hostname=$(hostname)
 # Email subject including server IP and hostname
 subject="CyberPanel Credentials - Server IP: $server_ip - Hostname: $hostname"
 # Send email with credentials using sendmail
-sendmail info@truehost.cloud <<EOF
+sendmail arshford@cloudoon.com <<EOF
 Subject: $subject
 
 Hello,
