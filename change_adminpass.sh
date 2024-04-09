@@ -39,7 +39,7 @@ hostname=$(hostname)
 # Email subject including server IP and hostname
 subject="CyberPanel Credentials - Server IP: $server_ip - Hostname: $hostname"
 # Send email with credentials using sendmail
-sendmail arshford@cloudoon.com <<EOF
+sendmail info@truehost.cloud <<EOF
 Subject: $subject
 
 Hello,
