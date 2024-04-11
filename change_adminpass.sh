@@ -1,5 +1,8 @@
 #!/bin/bash
-
+#
+# Script written by Arshford
+# Copyright (c) 2023 Arsh. All rights reserved.
+#
 # Path to CyberPanel installation log file
 log_file="/var/log/installLogs.txt"
 
