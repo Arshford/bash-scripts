@@ -1,5 +1,8 @@
 #!/bin/bash
-
+#
+# Script written by Arshford
+# Copyright (c) 2023 Arsh. All rights reserved.
+#
 #set -e -o pipefail
 #set -x
 #set -u
