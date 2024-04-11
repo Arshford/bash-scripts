@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to Centos Web Panel installation log file
-log_file="/home/centos/cwpinstallation.log"
+log_file="/var/log/cloud-init-output.log"
 
 # Function to check if reboot command is found in the log file
 check_reboot_command() {
